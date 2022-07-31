@@ -37,7 +37,7 @@ my_config.width = 1000
 
 chart = pygal.Bar(my_config, style=my_style)
 chart.title = "List of Futurice repositories"
-chart.x_labels =  
+chart.x_labels =  names
 
 chart.add('', plot_dicts)    
 chart.render_to_file('python_repos.svg')
